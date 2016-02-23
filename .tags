@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+dictionary	/Users/jonday/Go/src/hangmanPackage/hangman/dictionary.go	/^type dictionary struct {$/;"	type	line:14
+NewDictionary	/Users/jonday/Go/src/hangmanPackage/hangman/dictionary.go	/^func NewDictionary() *dictionary {$/;"	func	line:22
+FetchRandomWord	/Users/jonday/Go/src/hangmanPackage/hangman/dictionary.go	/^func (dictionary dictionary) FetchRandomWord() string {$/;"	func	line:34
+IsCharacterInWord	/Users/jonday/Go/src/hangmanPackage/hangman/dictionary.go	/^func (dictionary dictionary) IsCharacterInWord(character string, word string) bool {$/;"	func	line:43
+Hangman	/Users/jonday/Go/src/hangmanPackage/hangman/hangman.go	/^type Hangman struct {$/;"	type	line:12
+Person	/Users/jonday/Go/src/hangmanPackage/hangman/hangman.go	/^type Person struct {$/;"	type	line:18
+Run	/Users/jonday/Go/src/hangmanPackage/hangman/hangman.go	/^func (hangman Hangman) Run() {$/;"	func	line:28
+IsArrayEqual	/Users/jonday/Go/src/hangmanPackage/hangman/hangman.go	/^func IsArrayEqual(a []string, b []string) bool {$/;"	func	line:64
+displayResult	/Users/jonday/Go/src/hangmanPackage/hangman/hangman.go	/^func (hangman *Hangman) displayResult(screenOutputer ScreenOutputerInterface, result bool) {$/;"	func	line:79
+ScreenOutputerMock	/Users/jonday/Go/src/hangmanPackage/hangman/hangman_test.go	/^type ScreenOutputerMock struct {$/;"	type	line:10
+selectImage	/Users/jonday/Go/src/hangmanPackage/hangman/hangman_test.go	/^func (screenOutputer ScreenOutputerMock) selectImage() string {$/;"	func	line:15
+OutputChooseLetter	/Users/jonday/Go/src/hangmanPackage/hangman/hangman_test.go	/^func (ScreenOutputer ScreenOutputerMock) OutputChooseLetter(characterFromUser *string, wordToFind string) {$/;"	func	line:22
+TestTranslate	/Users/jonday/Go/src/hangmanPackage/hangman/hangman_test.go	/^func TestTranslate(testHelper *testing.T) {$/;"	func	line:26
+ScreenOutputer	/Users/jonday/Go/src/hangmanPackage/hangman/screenOutputer.go	/^type ScreenOutputer struct {$/;"	type	line:10
+selectImage	/Users/jonday/Go/src/hangmanPackage/hangman/screenOutputer.go	/^func (screenOutputer ScreenOutputer) selectImage(guesses int) string {$/;"	func	line:15
+OutputChooseLetter	/Users/jonday/Go/src/hangmanPackage/hangman/screenOutputer.go	/^func (ScreenOutputer ScreenOutputer) OutputChooseLetter(characterFromUser *string, wordToFind string) {$/;"	func	line:22
+screenOutputerFactory	/Users/jonday/Go/src/hangmanPackage/hangman/screenOutputer.go	/^func screenOutputerFactory() *ScreenOutputer {$/;"	func	line:37
+ScreenOutputerInterface	/Users/jonday/Go/src/hangmanPackage/hangman/screenOutputerInterface.go	/^type ScreenOutputerInterface interface {$/;"	type	line:3
+main	/Users/jonday/Go/src/hangmanPackage/hangman_application.go	/^func main() {$/;"	func	line:8
